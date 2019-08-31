@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  0x1c.site.placeholder:
+    image: registry-vpc.cn-hangzhou.aliyuncs.com/0x1c/site.placeholder:latest
+    container_name: 0x1c.site.placeholder
+    ports:
+      - 7280:80
+
+networks:
+  default:
+    external:
+      name: 0x1c-net
