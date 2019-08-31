@@ -1,9 +1,9 @@
 version: '3.7'
 
 services:
-  0x1c.site.placeholder:
+  placeholder.0x1c.site:
     image: registry-vpc.cn-hangzhou.aliyuncs.com/0x1c/site.placeholder:latest
-    container_name: 0x1c.site.placeholder
+    container_name: placeholder.0x1c.site
     restart: always
     ports:
       - 7280:80
