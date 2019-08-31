@@ -4,6 +4,7 @@ services:
   0x1c.site.placeholder:
     image: registry-vpc.cn-hangzhou.aliyuncs.com/0x1c/site.placeholder:latest
     container_name: 0x1c.site.placeholder
+    restart: always
     ports:
       - 7280:80
 
